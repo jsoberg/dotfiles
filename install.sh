@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-bashrc_alias_connection="if [ -f ~/.bashrc_aliases ]; then . ~/.bashrc_aliases fi"
+bashrc_alias_connection="if [ -f ~/.bashrc_aliases ]; then . ~/.bashrc_aliases; fi"
 
 echo "Replace .bash_colors with latest version..."
 yes | cp -rf .bash_colors ~/.bash_colors
