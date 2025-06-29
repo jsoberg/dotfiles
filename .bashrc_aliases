@@ -1,0 +1,26 @@
+# ====================
+# General
+# ====================
+## Set nano as default text editor
+export VISUAL=nano
+export EDITOR="$VISUAL"
+
+## Import color codes as vars
+[[ -f ~/.bash_colors ]] && source ~/.bash_colors
+
+
+# ====================
+# Android
+# ====================
+## Export Android SDK tools
+export PATH=$PATH:~/Android/Sdk/tools:~/Android/Sdk/tools/bin:~/Android/Sdk/platform-tools
+
+
+# ====================
+# Ruby/Jekyll
+# ====================
+## Set Gem home for Ruby/Bundler
+export GEM_HOME=$HOME/.gem
+
+## Alias for running jekyll serve
+alias jekrun="bundle exec jekyll serve"
